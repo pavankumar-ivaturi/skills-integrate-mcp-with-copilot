@@ -37,6 +37,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid;
     grid-template-columns: 2fr 1fr;
   }
 }
@@ -197,4 +198,12 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.announcement-banner {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
